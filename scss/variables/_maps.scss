@@ -1,0 +1,16 @@
+//MAPS + EACH (bucle)
+
+$textoResaltado: (
+    decoHome: rgb(121, 96, 96),
+    caracteristica: #953f05,
+   
+);
+
+
+@each $frases, $color in $textoResaltado {
+    .#{$frases}{
+        color: $color;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}

@@ -3,73 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-     .logo{
-         width: 8%;
-     }
 
-     .video{
-        margin-top: 3%;
-        object-fit: cover;
-        width: 988px !important;
-        height: 381px;
-        margin-left: 20%;
-    } 
- .titulos{
-     padding: 20px;
-     margin: 20px;
- }
+//PRIMERO VAN LAS VARIABLES
+@import './variables/extend';
+@import './variables/mixin';
+@import './variables/maps';
 
- .productos{
-     margin: 20px;
-     padding: 20px;
- 
-   
-       .living{
-        height: 450px;
-        width: 450px;}
-   
-   
-       .cocina {
-            height: 450px;
-            width: 450px;}
-       
-
-  
-
-        .baño{
-                height: 450px;
-                width: 450px;
-  }
-
-
-        .aromas{
-                    height: 450px;
-                    width: 450px;
-                
-        }
-  }
-
-
-  .footer{
-    background-color: darkgrey;
-    
-    .navegacion{ ul a {
-    text-decoration: none;
-    color: black;
-    margin-right: 7.5rem;
-    font-size: 110%;}}
-    
-    .redes{ .redesSociales {
-    
-    text-decoration: none;
-    color: black;
-    font-size: 110%;
-}}
-
-}
+@import './secciones/header';
+@import './secciones/index';
+@import './secciones/nosotros';
+@import './secciones/footer';
 
 
 
 
 
- 
+
+
+
