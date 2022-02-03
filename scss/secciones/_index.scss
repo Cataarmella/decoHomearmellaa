@@ -53,3 +53,11 @@ h2{
 h3{
     @include fontStyle(rgb(39, 97, 37),36px , 900 )
 }
+
+.titulo{
+    font-size: 30px;
+    font-family: serif;
+    position: relative; 
+    top: 50%;
+    color: white;
+}

@@ -12,7 +12,7 @@ p {
 h2 {
   font-size: 30px;
   font-family: serif;
-  background-color: darkgrey; }
+  background-color: none; }
 
 .decoHome {
   color: #796060;
@@ -60,6 +60,13 @@ h3 {
   font-weight: 900;
   text-transform: uppercase;
   text-decoration: underline; }
+
+.titulo {
+  font-size: 30px;
+  font-family: serif;
+  position: relative;
+  top: 50%;
+  color: white; }
 
 h3 {
   color: #276125;
