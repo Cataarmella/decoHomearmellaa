@@ -5,3 +5,13 @@
     text-transform: uppercase;
     text-decoration: underline;
 }
+
+
+@mixin fontStyle ($alcornoque, $tamanio, $peso) {
+    color: $alcornoque;
+    font-size: $tamanio;
+    font-weight: $peso;
+    text-transform: uppercase;
+    text-decoration: underline;
+   
+}
