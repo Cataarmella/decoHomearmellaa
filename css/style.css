@@ -68,6 +68,29 @@ h3 {
   top: 50%;
   color: white; }
 
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .video {
+    margin-left: 0;
+    margin-bottom: 40px; }
+  .productos {
+    margin: 0;
+    padding: 0; }
+  .productos .living {
+    height: 350px;
+    width: 280px; }
+  .productos .aromas {
+    height: 350px;
+    width: 280px; }
+  .productos .baño {
+    height: 350px;
+    width: 280px; }
+  .productos .cocina {
+    height: 350px;
+    width: 280px;
+    margin-bottom: 30px; }
+  .titulos {
+    padding: 0; } }
+
 h3 {
   color: #276125;
   font-size: 36px;
@@ -108,3 +131,9 @@ h3 {
   color: #fff;
   background-color: black;
   border-color: #808285; }
+
+.preg {
+  text-align: center; }
+
+.botonContacto {
+  margin: 20px; }
