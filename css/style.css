@@ -25,7 +25,32 @@ h2 {
   font-size: 18px; }
 
 .logo {
-  width: 8%; }
+  width: 8%;
+  margin-left: -40px;
+  margin-right: 50px;
+  color: blanchedalmond; }
+
+.nav-link {
+  text-decoration: none;
+  transition: color .15s ease-in-out;
+  background-color: .15s;
+  border-color: .15s; }
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: blanchedalmond; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: blanchedalmond; }
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: blanchedalmond; }
+
+.btn-outline-success {
+  color: blanchedalmond;
+  border-color: blanchedalmond; }
+
+.navbar-light .navbar-brand {
+  color: blanchedalmond; }
 
 .video {
   margin-top: 3%;
@@ -90,6 +115,10 @@ h3 {
     margin-bottom: 30px; }
   .titulos {
     padding: 0; } }
+
+img:hover {
+  transform: scale(1);
+  object-fit: cover; }
 
 h3 {
   color: #276125;
