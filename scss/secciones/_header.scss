@@ -46,3 +46,7 @@
             
         }
     }
+
+    @media (min-width: 992px) {
+        .navbar-expand-lg .navbar-collapse {
+          justify-content: flex-end; }}
