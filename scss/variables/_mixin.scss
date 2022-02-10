@@ -1,17 +1,10 @@
 @mixin fontStyle ($alcornoque, $tamanio, $peso) {
     color: $alcornoque;
+    font-family: 'M PLUS 1 Code', sans-serif;
+font-family: 'Nunito', sans-serif;
     font-size: $tamanio;
     font-weight: $peso;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration:double;
 }
 
-
-@mixin fontStyle ($alcornoque, $tamanio, $peso) {
-    color: $alcornoque;
-    font-size: $tamanio;
-    font-weight: $peso;
-    text-transform: uppercase;
-    text-decoration: underline;
-   
-}
