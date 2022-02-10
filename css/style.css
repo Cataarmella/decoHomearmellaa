@@ -212,5 +212,33 @@ h3 {
   margin-top: 13%;
   margin-bottom: 5%; }
 
+p {
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  margin-top: 80px; }
+
 .botonContacto {
   margin: 20px; }
+
+.footerCont {
+  background-color: #212529;
+  margin-bottom: -73px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #212529;
+  margin-bottom: -73px; }
+  .footerCont .footer .navegacion ul a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    margin-right: 7.5rem;
+    font-size: 110%; }
+  .footerCont .redes .redesSociales {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 110%;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Nunito', sans-serif; }
