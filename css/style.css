@@ -215,7 +215,7 @@ h3 {
 p {
   font-family: 'M PLUS 1 Code', sans-serif;
   font-family: 'Nunito', sans-serif;
-  font-weight: 900;
+  font-weight: 1000;
   margin-top: 80px; }
 
 .botonContacto {
@@ -229,7 +229,7 @@ p {
   width: 100%;
   background-color: #212529;
   margin-bottom: -73px; }
-  .footerCont .footer .navegacion ul a {
+  .footerCont .navegacion ul a {
     text-decoration: none;
     color: blanchedalmond;
     font-family: 'M PLUS 1 Code', sans-serif;
