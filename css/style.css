@@ -32,6 +32,10 @@ h2 {
   margin-right: 50px;
   color: blanchedalmond; }
 
+.header {
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-family: 'Nunito', sans-serif; }
+
 .nav-link {
   text-decoration: none;
   transition: color .15s ease-in-out;
@@ -160,12 +164,16 @@ h3 {
   .footer .navegacion ul a {
     text-decoration: none;
     color: blanchedalmond;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin-right: 7.5rem;
     font-size: 110%; }
   .footer .redes .redesSociales {
     text-decoration: none;
     color: blanchedalmond;
-    font-size: 110%; }
+    font-size: 110%;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Nunito', sans-serif; }
 
 .card {
   position: relative;
